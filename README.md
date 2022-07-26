@@ -5,3 +5,7 @@ You can switch to [main structure](https://github.com/YiChingLLin/Dinkle) and [t
 
 ## Cross Validation
 This project implements k-fold cross validation with the Scikit-learn library.
+```python
+k=5
+splits=KFold(n_splits=k,shuffle=True,random_state=42)
+```
