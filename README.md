@@ -5,7 +5,7 @@ You can switch to [main structure](https://github.com/YiChingLLin/Dinkle) and [t
 
 ## Cross Validation
 This project implements k-fold cross validation with the Scikit-learn library.  
-The training data is divided by 5.
+The training dataset is divided by 5.
 ```python
 from sklearn.model_selection import KFold
 
@@ -14,4 +14,4 @@ splits=KFold(n_splits=k,shuffle=True,random_state=42)
 ```
 ### Evaluation
 1. Jusitfy the value of `epochs` to decide how many times you want to train.  
-2. Print out the plot for the average loss value of five folds. Besides, you can evaluate which model perforams the best from fold1 to fold5, and save it for the next step. 
+2. Print out the plot of the average loss value from five folds, which is used to evaluate model performance.
